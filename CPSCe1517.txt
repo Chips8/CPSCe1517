@@ -1,0 +1,18 @@
+Create
+Read
+Update
+Delete
+Razer- C# Code, html
+-maintain database with Crud
+ASP.net
+-same patterns
+-same problems
+Problems solved in two different ways
+-Pattern is the same, concept is the same
+-Tool is different
+
+Understand the Problem --> Design a Solution --> Code --> Test --> Repeat step 1 if fail
+
+What are they, How to use em, how to build em --> Objects Test Friday 3 O'Clock, 3rd week
+
+Know how you learn, use your strengths
