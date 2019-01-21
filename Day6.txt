@@ -1,0 +1,78 @@
+form and razor
+project
+go to my location and browse
+documents area
+github area
+go into my appropriate repository 
+gives you an empty solution
+go to my repository
+you can see I have a solution for my OOPs Review
+asb.netframework
+
+Look at web app
+Maybe create an excercise with a certain name?
+first thing to add is .gitignore and .gitattributes
+Once you started it without gitignore, it'll be too late.
+
+We're not touching properties, references, or config.
+web config file: What program needs to start things.
+Almost looks like html, it is xml. extended mark-up language. These tags
+have a certain meaning to a tag when it runs.
+Create lay out page
+
+Just a skeleton, set the page property title to a value
+Page is an instance object is a peroperty called Title.
+Retrieve your instance page and display it.
+@Render body is a place holder.
+Your content is going to be placed inside a place holder on your skeleton page.
+When the body by default is your html is from your content page. It's all of it, and 
+it gets slammed inbetween the body and the close bar.
+If you want content to go some where else on your skeleton, that's when you use a different
+tag called RenderSection.
+That is going to identified on your content page as head.
+It has also been flagged as false, DEFAULT is true, NOT FALSE. 
+You put in false so you don't have to code it.
+Why do you want it in head section when it doesn't need to be display?
+Maybe on that content page you need a special java or css file that is not required
+for other pages.
+To put it in you do @, you are escaping HTML universe to CSS universe.
+@Section
+
+Does it matter where you put this additional render section, NO it does not.
+On your content page you can put in and label it as a different section, curly brackets
+whatever you need on that page so it is actually part of your skeleton.
+What can you actually do on your body area.
+I could say @rendersection("footer")
+If i don't put required: false, then I would need to code it.
+Means: that rendor section does not have to be coded in my content area.
+Does it need something to display when something is not optional?
+It is only your additional sections that you can make required or false.
+Let's go and create a page, I am going to right click on project again.
+I am going to go add, new item, Web->Razor->Web Page 3--> name as Default
+index.html, Default html, htm, aspx
+Now you can always add your cs.html to your list of defaults for your website.
+We don't want skeleton stuff for default
+You want MVC 5 View Page with Layout(Razor) instead.
+Gives you option to choose layout page to merge with this layout page.
+Why do you need multiple layout pages for website? 
+You may need multiple layout pages to offer to customers, or different ways to let someone
+log in. You can have multiple layout pages out there. We are not looking at
+security in this semester.
+
+What is this first few characters mean? ~/ means start at the top of my website
+Do the browse underscore layout file
+You cannot browse _ files directly
+reserved for items like layout page
+You cannot look at your layout page directly
+Have code some where else have to re-arrange lay out page
+I don't have to code a page with a footer section,
+if always there, might as well put it in layout page.
+DateTime is a C# object. When you hit the @ sign, you leave the HTML universe and you
+got to the CSS universe.
+Your DateTime is C#.
+Database function is call itDate
+
+Put a menu on here and create more pages.
+Creating menus using bootstrap?
+Not straight html and not straight css in this class.
+Instead of taking latest version of bootstrap, we are going to grab a hold of release 3.3.7
