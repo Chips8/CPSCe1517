@@ -1,0 +1,19 @@
+Whole field enter value in.
+You're going to have two buttons; 1 submit and 1 clear. When you hit the button, your going to one event. Either clear or submit, whichever button you choose.
+If it's submit again we want to look up one piece of information.
+You know the logic.
+Question is how to get to database.
+In RAZOR, we went from website to database, QUITE not secure. So we aren't going to do that. We want a more secure fashion.
+You could end up securing this, you could by putting up some barriers. What we are going to do is send the request to our component library.
+That means we need to create an instance of lib class and issue request.
+When it comes back, display results.
+Request instance once in DLL class*?
+Every T has it's own class, just makes it easier for us. IF we have 23 tables and one method in one class, come up with minium of 123 methods. Putting in the queries, we can change 
+query in one table and it would change, makes it easier to maintain.
+Methods inside controller has to access the data.
+What the methods will do, will create an instance of your contacts box, and pass requests to contacts class.
+And Contacts class will execute appropriate request and send value or query or update; it will handle 
+How to resolve issue fastly?
+What to do with cursor, hold it over curly lines, go down to light bulb, you pick the using clause.
+
+DBset, only thing that is going to change
