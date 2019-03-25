@@ -1,0 +1,36 @@
+find page  button size
+FSIS change to horizontal
+Through property boxes, what we've done before.
+Now we're gonna 
+property tag-->Edit columns-->underneath edit columns--> Auto-generate fields check box--> gives us fields at this point in time, If left on, even if customize
+everything it will print out customized fields. TURN IT OFF. So then you can put it in your own fields
+Know 4 different ways of pulling data from the grid view.
+Obviously, that's annyoing. Way to HANDLE all scenarios. One style FITS all.
+Other controls use TEMPLATES, they use them extensively. So instead of filling with unncessary methods to fit other scenarios.
+Template feilds--> add
+allows us to put a web control inside this cell.
+Change website header/name.
+Down in the styles, go to header styles, all kind of styles to use here.
+Can choose colors you want.
+QoH = unit in stock = Quantity on Hand
+Bold true?
+Edit binding, select text, put in a special code I want for my field.
+Learn how to use a dialogue, or what is required in a template field.
+You have to have item template and control in template Field.
+Copy item template and label, put it inside my price template field. And I am going to paste it inside my QoH.
+What field I would like to use, whether it is checked or not.
+discontinued?
+
+Faster than going through all those Dialogues?
+I would like to format unit price, use string format.
+In front of eval, type string.format( )
+Turn causes validation to FALSE. Same as putting it on a regular button.
+Also learn what code it's creating and how to use it to it's full extent. View.
+SQL procedure queries.
+Put it where ever you want.
+Deal with hidden fields, with the PRODUCTID, go back to source, go to last template, need to put something in there.
+What I need, AT MINIMUM is Item template and a web control. Copy item template and paste it.
+
+ACCESS data
+4 Different ways to access data.
+4 Ways to set up grid view set up, actually 3 ways, 1 way depending on the way you edit, so it gives a secondary method to edit, which is considered the 4th way access.
